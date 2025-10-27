@@ -1,9 +1,11 @@
 # Large data files (too big for GitHub)
-dataset/raw/*.csv
+# Ignore all CSV files in raw data directories
 dataset/raw/**/*.csv
 
 # Allow small sample/processed files
 !dataset/processed/*.csv
+
+# Optional: Add a .gitkeep file to track empty directories
 !dataset/raw/.gitkeep
 
 # Python
