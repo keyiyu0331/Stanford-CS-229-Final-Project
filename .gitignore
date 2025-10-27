@@ -1,0 +1,36 @@
+# Large data files (too big for GitHub)
+dataset/raw/*.csv
+dataset/raw/**/*.csv
+
+# Allow small sample/processed files
+!dataset/processed/*.csv
+!dataset/raw/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Jupyter/IPython
+.ipynb_checkpoints
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
